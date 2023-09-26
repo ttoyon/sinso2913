@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        } /* 중앙정렬 */
+        p.date {
+            text-align: right;
+            color:indigo;
+            line-height: 50px;
+        } /* 오른쪽정렬 */
+        p.poet {
+            text-align: justify;
+            color: blue;
+            word-spacing: 10px;
+            /* letter-spacing: 10px; 음수 값도 가능 */
+        } /* 양쪽정렬 */
+        #dir {
+            background-color: black;
+            color: yellow;
+            direction: rtl;
+        }
+        p.indent {
+            text-indent: 30px;
+        }
+        h1.deco {
+            text-decoration: overline;
+        }
+        h2 {
+            text-decoration: line-through;
+        }
+        h3 {
+            text-decoration: underline;
+        } /* a태그의 text-decoration 기본값은 underline이다. */
+    </style>
+</head>
+<body>
+    <h1>CSS 텍스트 정렬 예제</h1>
+    <p class="date">2013년 9월 1일</p>
+    <p class="poet">삶이 그대를 속일지라도 슬퍼하거나 노여워하지 말라</p>
+    <p class="indent"><em>참고 푸시킨의 시</em></p>
+    <div>
+        <span>정렬이 될까요?</span>
+    </div>
+    <p id="dir">텍스트가 오른쪽부터 작성됩니다</p>
+    <h1 class="deco">텍스트 장식의 예입니다.</p>
+    <h2 >텍스트 장식의 예입니다.</p>
+    <h3 >텍스트 장식의 예입니다.</p>
+</body>
+   
+</html>
