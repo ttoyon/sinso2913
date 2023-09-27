@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경 이미지</title>
+    <style>
+        div {
+            height: 200px;
+            border: 10px dashed black;
+            padding: 20px;
+            background-color: yellow;
+        }
+        h1 {
+            color:red;
+        }
+        #orign {
+            background-repeat: no-repeat;
+        }
+        #padding {
+            background-repeat: no-repeat;
+            background-clip: padding-box;
+        }
+        #content {
+            background-repeat: no-repeat;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="orign">
+        <h1>border-box</h1>
+        <p>
+        삶이 그대를 속일지라도 <br>
+         슬퍼하거나 노하지말아라 <br>
+        ... <br>
+        지나가 버린 것 그림이 되리니. <br>
+    </p>
+    </div>
+    <br>
+    <div id="padding">
+        <h1>border-box</h1>
+        <p>
+        삶이 그대를 속일지라도 <br>
+         슬퍼하거나 노하지말아라 <br>
+        ... <br>
+        지나가 버린 것 그림이 되리니. <br>
+    </p>
+    </div>
+    <br>
+    <div id="content">
+        <h1>border-box</h1>
+        <p>
+        삶이 그대를 속일지라도 <br>
+         슬퍼하거나 노하지말아라 <br>
+        ... <br>
+        지나가 버린 것 그림이 되리니. <br>
+    </p>
+    </div>
+</body>
+</html>
