@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FT3</title>
+</head>
+<style>
+    .wrap {
+        width: 900px;
+        border: 2px solid navy;
+    }
+    .box1 {
+        box-sizing: border-box;
+        width: 300px;
+        background-color: pink;
+        float: left;
+    }
+    .box2 {
+        box-sizing: border-box;
+        width: 300px;
+        background-color: lightgreen;
+        float: left;
+    }
+    .box3 {
+        box-sizing: border-box;
+        width: 300px;
+        background-color: lightblue;
+        float: left;
+    }
+    .wrap::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+</style>
+<body>
+    <div class="wrap">
+        <div class="box1">aa</div>
+        <div class="box2">bb</div>
+        <div class="box3">cc</div>
+    </div>
+</body>
+</html>
