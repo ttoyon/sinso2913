@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그리드연습1</title>
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0px;
+    }
+    ul {
+        padding: 0px;
+        list-style-type: none;
+        border: 5px solid mediumaquamarine
+    }
+    li {
+        background-color: beige;
+        border: 5px solid lightcoral;
+        border-radius: 8px; /* 모서리 둥글기 */
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .container {
+        display: grid;
+        height: 500px;
+        /* grid-template-columns: 10% 20% 10%; */
+        /* grid-template-rows: 20% 30% 10%; */
+
+        /* grid-template-columns: 100px 100px 250px; */
+        /* grid-template-rows: 30px 30px 30px; */
+
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        /* grid-template-rows: 1fr 2fr 1fr; */
+
+        /* grid-template-columns: 100px 2fr 1fr;
+        grid-template-rows: 100px 2fr 1fr; */
+
+        /* grid-template-columns: repeat(3,1fr 3fr 2fr); */
+        /* grid-template-rows: repeat(3, 1fr 3fr 2fr); */
+
+        /* grid-template-columns: repeat(2, minmax(100px, 1fr)); */
+        /* grid-template-columns: repeat(4, minmax(20%, 2fr)); */
+
+        grid-template-columns: 30% 10% 10% 20% 10%;
+        grid-template-rows: 50%;
+    }
+</style>
+<body>
+    <ul class="container">
+        <li class="Item">1</li>
+        <li class="Item">2</li>
+        <li class="Item">3</li>
+        <li class="Item">4</li>
+        <li class="Item">5</li>
+        <li class="Item">6</li>
+        <li class="Item">7</li>
+        <li class="Item">8</li>
+        <li class="Item">9</li>
+    </ul>
+</body>
+</html>
