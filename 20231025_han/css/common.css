@@ -1,0 +1,41 @@
+/* #box1 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 35px
+} */
+
+/* 글줄이 여러줄이어도 ok */
+/* 정확히 정중앙 */
+/* 단점: 박스의 높이를 콕찝어 얼마라고 말못함 */
+
+/* line-height를 이용하는 방법 */
+/* 장점: 박스의 높이를 이야기 할 수 있음
+        정확히 정중앙에 위치
+        박스의 높이가 달라도 쉽게 수정
+치명적 단점: 한줄밖에 못씀 */
+
+/* 두줄 이상 글도 쓰고 싶고
+박스의 높이도 특정하고 싶고
+정확히 정중에도 놓고 싶고 */
+#box1 { 
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    /* padding: 40px 0; */
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+p {
+    line-height: 3em;
+}
+
+.small {
+    font-size: 0.5em;
+}
+.big {
+    font-size: 2em;
+}
