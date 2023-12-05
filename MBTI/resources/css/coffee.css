@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: serif;
+  color: black;
+}
+span {
+  /* 1em = 16px * 1 */
+  font-size: 2em;
+  color: red;
+}
+
+em {
+  font-size: 1.5em;
+  color: blue;
+}
+h1 {
+  border-bottom: 1px solid gray;
+  color: red;
+}
+h3 {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+body {
+  font-size: large;
+  background-color: white;
+}
