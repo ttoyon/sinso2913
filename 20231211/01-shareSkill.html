@@ -138,16 +138,140 @@
           <a href="#" class="course">
             <img src="../resources/img/hcwr.png"course-img" />
             <div class="info">
-              <h4>개성있는 일러스트 작품 만들기</h4>
+              <h4>개성있는 잡초뽑기</h4>
               <div class="lecture">
                 <img src="../resources/img/chi.png" />
-                <span class="name">신소연</span>
+                <span class="name">햄떨</span>
               </div>
             </div>
           </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/Bee.png" class="course-img" />
+              <div class="info">
+                <h4>내가 만드는 나만의 악세서리</h4>
+                <div class="lecture">
+                  <img src="../resources/img/burger.jpg" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/ank.png" class="course-img" />
+              <div class="info">
+                <h4>내 이야기를 노래로!</h4>
+                <div class="lecture">
+                  <img src="../resources/img/apple.jpg" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/monkey.jpg" class="course-img" />
+              <div class="info">
+                <h4>비전공자를 위한 웹 프로그래밍</h4>
+                <div class="lecture">
+                  <img src="../resources/img/QR.png" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/tube.jpg" class="course-img" />
+              <div class="info">
+                <h4>자신감 업! 메이크업 클래스</h4>
+                <div class="lecture">
+                  <img src="../resources/img/siba.jpg" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/sh.png" class="course-img" />
+              <div class="info">
+                <h4>아이돌 댄스 정복하기</h4>
+                <div class="lecture">
+                  <img src="../resources/img/sunshine.jpg" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/puppy2.jpg" class="course-img" />
+              <div class="info">
+                <h4>사진 작가에게 배우는 야외 사진</h4>
+                <div class="lecture">
+                  <img src="../resources/img/user.png" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/sunshine.jpg" class="course-img" />
+              <div class="info">
+                <h4>기본부터 익히는 플라워 클래스</h4>
+                <div class="lecture">
+                  <img src="../resources/img/user.png" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
+        <!-- 수업 목록 끝 -->
       </div>
-      <!-- 수업 목록 끝 -->
-    </div>
-  </body>
-</html>
+    </body>
+    <script>
+      const dumyData = [
+        { courseImgName: "course1", courseName: "개성있는 일러스트 작품 만들기" },
+        { courseImgName: "course2", courseName: "내가 만드는 나만의 악세서리" },
+        { courseImgName: "course3", courseName: "내 이야기를 노래로!" },
+        { courseImgName: "course4", courseName: "비전공자를 위한 웹 프로그래밍" },
+        { courseImgName: "course5", courseName: "자신감 업! 메이크업 클래스" },
+        { courseImgName: "course6", courseName: "아이돌 댄스 정복하기" },
+        {
+          courseImgName: "course7",
+          courseName: "사진 작가에게 배우는 야외 사진",
+        },
+        { courseImgName: "course8", courseName: "기본부터 익히는 플라워 클래스" },
+      ];
+  
+      function getCourse() {
+        const courseList = document.getElementById("courseList");
+        dumyData.forEach(function (v) {
+          courseList.insertAdjacentHTML(
+            "beforeend",
+            `
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <a href="#" class="course">
+              <img src="../resources/img/${v.courseImgName}.jpg" class="course-img" />
+              <div class="info">
+                <h4>${v.courseName}</h4>
+                <div class="lecture">
+                  <img src="../resources/img/user.png" />
+                  <span class="name">햄떨</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          `
+          );
+        });
+      }
+      getCourse();
+    </script>
+  </html>
+  
