@@ -72,9 +72,22 @@
     margin-top: 100px;
     align-items: center;
   }
-  .content {
-    background-color: antiquewhite;
+
+  .wrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .dokdoInfo {
+    background-color: whitesmoke;
     width: 400px;
-    height: 500px;
+    height: 300px;
+    image-resolution:inherit;
+    border-radius: 15%;
+
+  }
+
+  .viewInfo {
+    width: 400px;
+    height: 200px;
 
   }
