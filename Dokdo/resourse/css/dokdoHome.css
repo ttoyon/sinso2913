@@ -114,8 +114,16 @@
     background-color: whitesmoke;
     width: 300px;
     height: 500px;
-    padding: 2em;
+    padding: 3em;
     margin: 2em;
-    display: flex;
+    display: block;
     border-radius: 50px;
+    
+  }
+
+  .img {
+    position: absolute;
+    margin: auto;
+    display: block;
+    border: 1px solid black
   }
