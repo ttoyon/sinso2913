@@ -1,129 +1,128 @@
 .carousel-item {
-    height: 900px;
-  }
-  
-  .item {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-  }
-  
-  #item1 {
-    background-image: url(../img/dokdo1.jpg);
-  }
-  
-  #item2 {
-    background-image: url(../img/dokdo2.jpg);
-  }
-  
-  #item3 {
-    background-image: url(../img/dokdo3.jpg);
-  }
-  
-  .intro span {
-    border-style: 100px;
-    font-size: 50px;
-    color: #ffffff;
-  }
+  height: 900px;
+}
 
-  .intro h2 {
-    font-size: 25px;
-    color: #ffffff;
-    margin-bottom: 50px;
-  }
-  
-  .intro h3 {
-    font-size: 14px;
-    color: #ffffff;
-    margin-bottom: 200px;
-  }
-  
-  .intro a {
-    margin: 2em;
-    padding: 2em;
-    border: solid 1px #ffffff;
-    border-radius: 50px;
-    padding: 10px 35px;
-    color: #ffffff;
-    font-weight: 300;
-    text-decoration-line:none
-  }
-  
-  .intro {
-    position: absolute;
-    bottom: 25%;
-  }
-  
-  .container {
-    margin-top: 50px;
-  }
-  
-  .course-img {
-    width: 100%;
-  }
-  
-  .main {
-    margin-top: 100px;
-    align-items: center;
-  }
+.item {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
 
-  .wrap {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .dokdoInfo {
-    background-color: whitesmoke;
-    width: 400px;
-    height: 300px;
-    image-resolution:inherit;
-    image-orientation: flip;
-    border-radius: 15%;
-    padding: 3em;
-    margin: 3em;
+#item1 {
+  background-image: url(../img/dokdo1.jpg);
+}
 
-  }
+#item2 {
+  background-image: url(../img/dokdo2.jpg);
+}
 
-  .dokdoInfo a {
-    padding: 2em;
-    border: solid 1px teal;
-    border-radius: 50px;
-    padding: 10px 35px;
-    color: teal;
-    font-weight: 300;
-    text-decoration-line:none
+#item3 {
+  background-image: url(../img/dokdo3.jpg);
+}
 
-  }
+.intro span {
+  border-style: 100px;
+  font-size: 50px;
+  color: #ffffff;
+}
 
-  .viewInfo {
-    width: 400px;
-    height: 200px;
-    padding-block: 10%;
-  }
-  .swiper {
-    display: flex
-  
-  }
+.intro h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
 
-  .swiper-wrapper {
-    display: flex;
-  }
+.intro h3 {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
 
-  .swiper-slide {
-    background-color: whitesmoke;
-    width: 300px;
-    height: 500px;
-    padding: 3em;
-    margin: 2em;
-    display: block;
-    border-radius: 50px;
-    
-  }
+.intro a {
+  margin: 2em;
+  padding: 2em;
+  border: solid 1px #ffffff;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration-line: none;
+}
 
-  .img {
-    position: absolute;
-    margin: auto;
-    display: block;
-    border: 1px solid black
-  }
+.intro {
+  position: absolute;
+  bottom: 25%;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.course-img {
+  width: 100%;
+}
+
+.main {
+  margin-top: 100px;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dokdoInfo {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 300px;
+  image-resolution: inherit;
+  image-orientation: flip;
+  border-radius: 15%;
+  padding: 3em;
+  margin: 3em;
+}
+.dokdoInfo.img {
+  display: block;
+}
+
+.dokdoInfo a {
+  padding: 2em;
+  border: solid 1px teal;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: teal;
+  font-weight: 300;
+  text-decoration-line: none;
+}
+
+.viewInfo {
+  width: 400px;
+  height: 200px;
+  padding-block: 10%;
+}
+.swiper {
+  display: flex;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 500px;
+  padding: 3em;
+  margin: 2em;
+  display: block;
+  border-radius: 50px;
+}
+
+.img {
+  position: absolute;
+  margin: auto;
+  display: block;
+  border: 1px solid black;
+}
